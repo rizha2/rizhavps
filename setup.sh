@@ -7,7 +7,7 @@ echo '   / | / /   | / ___/__  /  / / / / __ \   /_  __/ ____/ ____/ / / / '
 echo '  /  |/ / /| | \__ \  / /  / / / / /_/ /    / / / __/ / /   / /_/ /  '
 echo ' / /|  / ___ |___/ / / /__/ /_/ / _, _/    / / / /___/ /___/ __  /   '
 echo '/_/ |_/_/  |_/____/ /____/\____/_/ |_|    /_/ /_____/\____/_/ /_/    '
-echo '                    PREMIUM SCRIPT BY NASZUR!                        '
+echo '                    PREMIUM SCRIPT BY NASZURTECH!                        '
 echo ''
 echo '                       Tunggu 5 Saat!                       '
 echo ' .......................................................... '
@@ -137,13 +137,6 @@ echo "   - Dropbear                : 109, 143"  | tee -a log-install.txt
 echo "   - Squid Proxy             : 3128, 8080 (limit to IP Server)"  | tee -a log-install.txt
 echo "   - Badvpn                  : 7100, 7200, 7300"  | tee -a log-install.txt
 echo "   - Nginx                   : 81"  | tee -a log-install.txt
-echo "   - Wireguard               : 7070"  | tee -a log-install.txt
-echo "   - L2TP/IPSEC VPN          : 1701"  | tee -a log-install.txt
-echo "   - PPTP VPN                : 1732"  | tee -a log-install.txt
-echo "   - SSTP VPN                : 444"  | tee -a log-install.txt
-echo "   - Shadowsocks-R           : 1443-1543"  | tee -a log-install.txt
-echo "   - SS-OBFS TLS             : 2443-2543"  | tee -a log-install.txt
-echo "   - SS-OBFS HTTP            : 3443-3543"  | tee -a log-install.txt
 echo "   - V2RAY Vmess TLS         : 8443"  | tee -a log-install.txt
 echo "   - V2RAY Vmess None TLS    : 80"  | tee -a log-install.txt
 echo "   - V2RAY Vless TLS         : 2083"  | tee -a log-install.txt
@@ -168,9 +161,9 @@ echo "   - White Label" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo ""
-echo "   - 1st Dev/Main            : NASZUR"  | tee -a log-install.txt
+echo "   - 1st Dev/Main            : NASZURTECH"  | tee -a log-install.txt
 echo ""
-echo "------------------Script Created By Naszur---------------------" | tee -a log-install.txt
+echo "------------------Script Created By NaszurTech---------------------" | tee -a log-install.txt
 
 sleep 3
 echo '============================================='
