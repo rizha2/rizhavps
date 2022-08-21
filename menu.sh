@@ -46,99 +46,96 @@ echo -e "\e[1;33m*               Senarai Menu yang Disediakan\e[0m"
 echo -e ""
 echo -e "\e[1;33m=========================-List Protocol-========================\e[0m'"
 echo -e "\e[1;31m* [1]\e[0m  \e[1;32m: SSH & OVPN PANEL\e[0m"
-echo -e "\e[1;31m* [8]\e[0m  \e[1;32m: VMESS PANEL\e[0m"
-echo -e "\e[1;31m* [9]\e[0m  \e[1;32m: VLESS PANEL\e[0m"
-echo -e "\e[1;31m* [10]\e[0m \e[1;32m: XRAY PANEL\e[0m"
-echo -e "\e[1;31m* [11]\e[0m \e[1;32m: TROJAN PANEL\e[0m"
+echo -e "\e[1;31m* [2]\e[0m  \e[1;32m: VMESS PANEL\e[0m"
+echo -e "\e[1;31m* [3]\e[0m  \e[1;32m: VLESS PANEL\e[0m"
+echo -e "\e[1;31m* [4]\e[0m \e[1;32m: XRAY PANEL\e[0m"
+echo -e "\e[1;31m* [5]\e[0m \e[1;32m: TROJAN PANEL\e[0m"
 echo -e ""
 echo -e "\e[1;33m=============================-SYSTEM-==========================\e[0m\e[0m'"
-echo -e "\e[1;31m* [12]\e[0m \e[1;32m: Add Or Change Subdomain Host For VPS\e[0m"
-echo -e "\e[1;31m* [13]\e[0m \e[1;32m: Renew Certificate \e[0m"
-echo -e "\e[1;31m* [14]\e[0m \e[1;32m: Change Port Of Some Service\e[0m"
-echo -e "\e[1;31m* [15]\e[0m \e[1;32m: Autobackup Data VPS\e[0m"
-echo -e "\e[1;31m* [16]\e[0m \e[1;32m: Backup Data VPS\e[0m"
-echo -e "\e[1;31m* [17]\e[0m \e[1;32m: Restore Data VPS\e[0m"
-echo -e "\e[1;31m* [18]\e[0m \e[1;32m: Webmin Menu\e[0m"
-echo -e "\e[1;31m* [19]\e[0m \e[1;32m: Update To Latest Kernel\e[0m"
-echo -e "\e[1;31m* [20]\e[0m \e[1;32m: Limit Bandwith Speed Server\e[0m"
-echo -e "\e[1;31m* [21]\e[0m \e[1;32m: Check Usage of VPS Ram\e[0m"
-echo -e "\e[1;31m* [22]\e[0m \e[1;32m: Reboot VPS\e[0m"
-echo -e "\e[1;31m* [23]\e[0m \e[1;32m: Speedtest VPS\e[0m"
-echo -e "\e[1;31m* [24]\e[0m \e[1;32m: Update To Latest Script Version\e[0m"
-echo -e "\e[1;31m* [25]\e[0m \e[1;32m: Displaying System Information\e[0m"
-echo -e "\e[1;31m* [26]\e[0m \e[1;32m: Info Script Auto Install\e[0m"
-echo -e "\e[1;31m* [27]\e[0m \e[1;32m: Exit From VPS \e[0m"
+echo -e "\e[1;31m* [6]\e[0m \e[1;32m: Add Or Change Subdomain Host For VPS\e[0m"
+echo -e "\e[1;31m* [7]\e[0m \e[1;32m: Renew Certificate \e[0m"
+echo -e "\e[1;31m* [8]\e[0m \e[1;32m: Change Port Of Some Service\e[0m"
+echo -e "\e[1;31m* [9]\e[0m \e[1;32m: Autobackup Data VPS\e[0m"
+echo -e "\e[1;31m* [10]\e[0m \e[1;32m: Backup Data VPS\e[0m"
+echo -e "\e[1;31m* [11]\e[0m \e[1;32m: Restore Data VPS\e[0m"
+echo -e "\e[1;31m* [12]\e[0m \e[1;32m: Webmin Menu\e[0m"
+echo -e "\e[1;31m* [13]\e[0m \e[1;32m: Update To Latest Kernel\e[0m"
+echo -e "\e[1;31m* [14]\e[0m \e[1;32m: Limit Bandwith Speed Server\e[0m"
+echo -e "\e[1;31m* [15]\e[0m \e[1;32m: Check Usage of VPS Ram\e[0m"
+echo -e "\e[1;31m* [16]\e[0m \e[1;32m: Reboot VPS\e[0m"
+echo -e "\e[1;31m* [17]\e[0m \e[1;32m: Speedtest VPS\e[0m"
+echo -e "\e[1;31m* [18]\e[0m \e[1;32m: Update To Latest Script Version\e[0m"
+echo -e "\e[1;31m* [19]\e[0m \e[1;32m: Displaying System Information\e[0m"
+echo -e "\e[1;31m* [20]\e[0m \e[1;32m: Info Script Auto Install\e[0m"
+echo -e "\e[1;31m* [21]\e[0m \e[1;32m: Exit From VPS \e[0m"
 
 echo -e ""
 echo -e "\e[1;33m====================================================================\e[0m"
 echo -e ""
-read -p "        Select From Options [1-27 or x]: " menu
+read -p "        Select From Options [1-21 or x]: " menu
 echo -e ""
 case $menu in
 1)
-menu-ssh
+menu-ssh 
 ;;
 2)
-menu-ss 
-;;
-3)
 menu-vmess
 ;;
-4)
+3)
 menu-vless 
 ;;
-5)
+4)
 menu-xray 
 ;;
-6)
+5)
 menu-trojan 
 ;;
-7)
+6)
 add-host
 ;;
-8)
+7)
 certv2ray
 ;;
-9)
+8)
 change-port
 ;;
-10)
+9)
 autobackup
 ;;
-11)
+10)
 backup
 ;;
-12)
+11)
 restore
 ;;
-13)
+12)
 wbmn
 ;;
-14)
+13)
 kernel-updt
 ;;
-15)
+14)
 limit-speed
 ;;
-16)
+15)
 ram
 ;;
-17)
+16)
 reboot
 ;;
-18)
+17)
 speedtest-cli
 ;;
-19)
+18)
 update
 ;;
-20)
+19)
 info
 ;;
-21)
+20)
 about
 ;;
-22)
+21)
 exit
 ;;
 x)
