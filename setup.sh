@@ -74,29 +74,29 @@ echo '        Installing SSH & OPENVPN '
 echo '============================================='
 wget https://raw.githubusercontent.com/rizha2/rizhavps/main/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
 echo '============================================='
-echo '        Installing SSTP '
-echo '============================================='
-wget https://raw.githubusercontent.com/rizha2/rizhavps/main/sstp.sh && chmod +x sstp.sh && screen -S sstp ./sstp.sh
-echo '============================================='
-echo '        Installing ssr '
-echo '============================================='
-wget https://raw.githubusercontent.com/rizha2/rizhavps/main/ssr.sh && chmod +x ssr.sh && screen -S ssr ./ssr.sh
-echo '============================================='
-echo '        Installing shadowsocksobfs '
-echo '============================================='
-wget https://raw.githubusercontent.com/rizha2/rizhavps/main/sodosok.sh && chmod +x sodosok.sh && screen -S ss ./sodosok.sh
-echo '============================================='
-echo '        Installing WIREGUARD '
-echo '============================================='
-wget https://raw.githubusercontent.com/rizha2/rizhavps/main/wg.sh && chmod +x wg.sh && screen -S wg ./wg.sh
+##echo '        Installing SSTP '
+##echo '============================================='
+##wget https://raw.githubusercontent.com/rizha2/rizhavps/main/sstp.sh && chmod +x sstp.sh && screen -S sstp ./sstp.sh
+##echo '============================================='
+##echo '        Installing ssr '
+##echo '============================================='
+##wget https://raw.githubusercontent.com/rizha2/rizhavps/main/ssr.sh && chmod +x ssr.sh && screen -S ssr ./ssr.sh
+##echo '============================================='
+##echo '        Installing shadowsocksobfs '
+##echo '============================================='
+##wget https://raw.githubusercontent.com/rizha2/rizhavps/main/sodosok.sh && chmod +x sodosok.sh && screen -S ss ./sodosok.sh
+##echo '============================================='
+##echo '        Installing WIREGUARD '
+##echo '============================================='
+##wget https://raw.githubusercontent.com/rizha2/rizhavps/main/wg.sh && chmod +x wg.sh && screen -S wg ./wg.sh
 echo '============================================='
 echo '        Installing V2RAY '
 echo '============================================='
 wget https://raw.githubusercontent.com/rizha2/rizhavps/main/ins-vt.sh && chmod +x ins-vt.sh && screen -S v2ray ./ins-vt.sh
 echo '============================================='
-echo '        Installing ipsec '
-echo '============================================='
-wget https://raw.githubusercontent.com/rizha2/rizhavps/main/ipsec.sh && chmod +x ipsec.sh && screen -S ipsec ./ipsec.sh
+##echo '        Installing ipsec '
+##echo '============================================='
+##wget https://raw.githubusercontent.com/rizha2/rizhavps/main/ipsec.sh && chmod +x ipsec.sh && screen -S ipsec ./ipsec.sh
 echo '        Installing XRAY '
 echo '============================================='
 wget https://raw.githubusercontent.com/rizha2/rizhavps/main/install-xray.sh && chmod +x install-xray.sh && screen -S v2ray ./install-xray.sh
